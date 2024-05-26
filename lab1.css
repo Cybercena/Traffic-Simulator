@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.car {
+    position: absolute;
+    height: 80px;
+    width: 120px;
+    top: 70%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.traffic-lights {
+    position: absolute;
+    top: 375px;
+    right: 589px;
+    width: 45px;
+    height: 125px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.light {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: grey;
+}
+
+.red-light.active {
+    background: red;
+}
+
+.green-light.active {
+    background: green;
+}
+
+.yellow-light {
+    background: yellow;
+}
+
+.controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.checkpoint-line {
+    position: absolute;
+    top: 67%;
+    right: 706px; /* Align with the right position of the traffic lights */
+    width: 25px;
+    height: 170px;
+    
+}

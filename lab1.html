@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Animation with Traffic Lights</title>
+    <link rel="stylesheet" href="lab1.css">
+</head>
+<body>
+    <div class="container">
+        <img src="background.jpg" alt="Background" class="background">
+        <div class="car"> 
+            <img src="car.png" alt="Car" class="car" id="car">
+        </div>
+        <div class="traffic-lights">
+            <div class="light red-light" id="redLight"></div>
+            <div class="light green-light" id="greenLight"></div>
+        </div>
+        <div class="checkpoint-line" id="checkpointLine"></div>
+    </div>
+    <div class="controls">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="restart">Restart</button>
+    </div>
+    <script src="lab.js"></script>
+</body>
+</html>
