@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const checkpoint = document.getElementById('checkpointLine');
 
     let carInterval;
-    let carSpeed = 3; // Adjusted car speed to 3 pixels per interval
+    let carSpeed = 20; // Increased car speed for clearer visualization
     let carPosition = 0;
     let light = 'green';
     let stoppedAtCheckpoint = false;
